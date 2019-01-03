@@ -1,0 +1,5 @@
+sudo yum -y install httpd
+sudo systemctl start httpd
+sudo rm -rf /var/www/html/*
+sudo rm -rf /var/www/html/.git
+sudo git clone https://github.com/vsaisatya21/dfood.git /var/www/html/
